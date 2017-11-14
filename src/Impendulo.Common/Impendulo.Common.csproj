@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F07FA77-11B2-41A8-8133-4FD607C1D43A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Impendulo.Common</RootNamespace>
+    <AssemblyName>Impendulo.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\lib\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Data.Services.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EnumPreLoadType.cs" />
+    <Compile Include="FileHandeling\EnrollmentFiles.cs" />
+    <Compile Include="MCDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MCDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MCDDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MCDDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDataSources\dsEnrollments.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEnrollments.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReportModels\CompanyFiles\Schedules\Report_CompanyProgressSchedules.cs" />
+    <Compile Include="ReportModels\Enrollments.cs" />
+    <Compile Include="ReportModels\General\AllCompanyEnrollments\AllCompanyEnrollments.cs" />
+    <Compile Include="ReportModels\Schedules\Registers\StudentRegister.cs" />
+    <Compile Include="ReportModels\Schedules\SectionalViews\SectionalView.cs" />
+    <Compile Include="Reports\AllEnrollments.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllEnrollments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\GeneralReports\AllCompanyEnrollments\AllCompanyEnrollments.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllCompanyEnrollments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\ProgressFiles\Company\CourseRegisters\ProgressFile_ScheduledCourseRegister.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProgressFile_ScheduledCourseRegister.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Schedules\SectionalView\rptScheduleSectionalView.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptScheduleSectionalView.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Schedules\StudentRegister\ScheduleStudentRegister.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScheduleStudentRegister.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Students\StudentRegistrationConfirmation\rptStudentRegistrationConfirmation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStudentRegistrationConfirmation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\CurrentlyScheduledCourses.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\AvaiableCoursePeriodByFacilitartorResultSet.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\FinalAvailablePeriods\AvailableOffSitePeriods.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\FinalAvailablePeriods\AvailableOnSitePeriods.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\Interfaces\IResultSet.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Courses\CourseAvailablePeriod.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\CourseAvailablePeriodResultSet.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\AbstractClasses\AbstactCourseAvaiablePeriod.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Courses\CourseAvailablePeriodProcessing.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\Interfaces\ISearchResultSet.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Facilitators\FacilitatorAvailablePeriod.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\Algorithm\AvailableCourseDateCalculator.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Facilitators\FacilitatorPeriod.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\AbstractClasses\AbstractDateSet.cs" />
+    <Compile Include="ApplicationLookAndFeel.cs" />
+    <Compile Include="AppSettings\AppSettings.cs" />
+    <Compile Include="CommonFormProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDateTime\CustomerDateTime.cs" />
+    <Compile Include="EmailSendingClasses\EmailAddress.cs" />
+    <Compile Include="EmailSendingClasses\EmailAttachments.cs" />
+    <Compile Include="EmailSendingClasses\EmailMessage.cs" />
+    <Compile Include="EmailSendingClasses\enumMessagePriority.cs" />
+    <Compile Include="EmailSendingClasses\FileBasedEmailAttachment.cs" />
+    <Compile Include="EmailSendingClasses\FileImageBasedEmailAttachment.cs" />
+    <Compile Include="EmailSendingClasses\IAddress.cs" />
+    <Compile Include="EmailSendingClasses\IAttachment.cs" />
+    <Compile Include="EmailSendingClasses\IEmailAttachments.cs" />
+    <Compile Include="EmailSendingClasses\IEmailMessage.cs" />
+    <Compile Include="EmailSendingClasses\IMessage.cs" />
+    <Compile Include="EmailSendingClasses\InvalidEmailAddressException.cs" />
+    <Compile Include="EmailSendingClasses\OutlookEmailMessage.cs" />
+    <Compile Include="EmailSendingClasses\RegexUtilities.cs" />
+    <Compile Include="EmailSendingClasses\StandardEmailMessage.cs" />
+    <Compile Include="EnumClasses\AutoGeneratedEnum.cs">
+      <DependentUpon>AutoGeneratedEnum.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="FileHandeling\FileHandeling.cs" />
+    <Compile Include="ProjectionQueryConverter\LinqHelperClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDataSources\dsReportStudents.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReportStudents.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptStudents.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStudents.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\Interfaces\IPeriod.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\EnumClasses\SearchTimeAhead.cs" />
+    <Compile Include="SMTPMail\EmailEnum.cs" />
+    <Compile Include="SMTPMail\CustomMailMessage.cs" />
+    <Compile Include="SMTPMail\OutLookEmail.cs" />
+    <Compile Include="SMTPMail\SmtpHelper.cs" />
+    <Compile Include="SortableBindingList\CustomSortableBindingList.cs" />
+    <Compile Include="SqlEntityHelper\EntityFrameworkHelper.cs" />
+    <Compile Include="SqlEntityHelper\SQLHelper.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Venues\VenuePeriod.cs" />
+    <Compile Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Venues\OffSiteVenuePeriod.cs" />
+    <Compile Include="Verifiction\OfProgressFiles.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="EmailSendingClasses\EmailSendingClasses.cd" />
+    <None Include="MCDDataSet.xsc">
+      <DependentUpon>MCDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MCDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MCDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MCDDataSet.xss">
+      <DependentUpon>MCDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MCDDataSet1.xsc">
+      <DependentUpon>MCDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MCDDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MCDDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MCDDataSet1.xss">
+      <DependentUpon>MCDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReportDataSources\dsEnrollments.xsc">
+      <DependentUpon>dsEnrollments.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataSources\dsEnrollments.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEnrollments.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReportDataSources\dsEnrollments.xss">
+      <DependentUpon>dsEnrollments.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataSources\dsReportStudents.xsc">
+      <DependentUpon>dsReportStudents.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataSources\dsReportStudents.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReportStudents.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReportDataSources\dsReportStudents.xss">
+      <DependentUpon>dsReportStudents.xsd</DependentUpon>
+    </None>
+    <None Include="ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\SchedulingAlgorithmClasses.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CommonFormProperties.resx">
+      <DependentUpon>CommonFormProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AllEnrollments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AllEnrollments.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\GeneralReports\AllCompanyEnrollments\AllCompanyEnrollments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AllCompanyEnrollments.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ProgressFiles\Company\CourseRegisters\ProgressFile_ScheduledCourseRegister.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProgressFile_ScheduledCourseRegister.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptStudents.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStudents.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Schedules\SectionalView\rptScheduleSectionalView.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptScheduleSectionalView.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Schedules\StudentRegister\ScheduleStudentRegister.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ScheduleStudentRegister.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Students\StudentRegistrationConfirmation\rptStudentRegistrationConfirmation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStudentRegistrationConfirmation.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Impendulo.Data\Impendulo.Data.csproj">
+      <Project>{db508b3a-01f7-4b80-8ca3-c4c0151b63ee}</Project>
+      <Name>Impendulo.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EnumClasses\AutoGeneratedEnum.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AutoGeneratedEnum.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reports\ProgressFiles\Company\Schedules\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

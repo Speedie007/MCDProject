@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ad1f818797e740d188d4ab8296250592" Name="Diagram1" ZoomLevel="81" ShowGrid="true">
+        <EntityTypeShape EntityType="MCDModel.Assessor" Width="1.5" PointX="10.5" PointY="51.625" />
+        <EntityTypeShape EntityType="MCDModel.Company" Width="2.25" PointX="0.5" PointY="44" />
+        <EntityTypeShape EntityType="MCDModel.ContactDetail" Width="1.5" PointX="6" PointY="46.875" />
+        <EntityTypeShape EntityType="MCDModel.CostingModel" Width="1.5" PointX="12.75" PointY="51.25" />
+        <EntityTypeShape EntityType="MCDModel.Course" Width="2.25" PointX="15" PointY="52.875" />
+        <EntityTypeShape EntityType="MCDModel.CurricullumCourseCode" Width="2.75" PointX="24.875" PointY="56.75" />
+        <EntityTypeShape EntityType="MCDModel.CurriculumCourseEnrollment" Width="2.75" PointX="25.875" PointY="40.75" />
+        <EntityTypeShape EntityType="MCDModel.CurriculumCourseMinimumMaximum" Width="2.875" PointX="22.5" PointY="58.875" />
+        <EntityTypeShape EntityType="MCDModel.CurriculumCoursePredecessor" Width="2.5" PointX="22.5" PointY="61.375" />
+        <EntityTypeShape EntityType="MCDModel.CurriculumCourse" Width="3.375" PointX="20.875" PointY="50.625" />
+        <EntityTypeShape EntityType="MCDModel.CurriculumEquirySelectedCourse" Width="3.25" PointX="14.5" PointY="34.625" />
+        <EntityTypeShape EntityType="MCDModel.CurriculumPrequisiteCourse" Width="3" PointX="23.75" PointY="47" />
+        <EntityTypeShape EntityType="MCDModel.Curriculum" Width="2.375" PointX="15" PointY="45.125" />
+        <EntityTypeShape EntityType="MCDModel.EmailMessageRepository" Width="2.375" PointX="0.5" PointY="39" />
+        <EntityTypeShape EntityType="MCDModel.EmailMessageRepositoryHistory" Width="3.625" PointX="6" PointY="36.125" />
+        <EntityTypeShape EntityType="MCDModel.EmailSystemOutGoingMessage" Width="3.125" PointX="0.5" PointY="1.125" />
+        <EntityTypeShape EntityType="MCDModel.Employee" Width="1.5" PointX="10.5" PointY="46.125" />
+        <EntityTypeShape EntityType="MCDModel.Enquiry" Width="1.5" PointX="3.5" PointY="38.625" />
+        <EntityTypeShape EntityType="MCDModel.EnrollmentDocument" Width="2.125" PointX="5.5" PointY="40" />
+        <EntityTypeShape EntityType="MCDModel.EquiryHistory" Width="2.25" PointX="8.25" PointY="38.875" />
+        <EntityTypeShape EntityType="MCDModel.FacilitatorAssociatedCourse" Width="2.75" PointX="18" PointY="45.375" />
+        <EntityTypeShape EntityType="MCDModel.FacilitatorQualification" Width="1.5" PointX="15.75" PointY="37.375" />
+        <EntityTypeShape EntityType="MCDModel.Facilitator" Width="2.375" PointX="11.125" PointY="34.5" />
+        <EntityTypeShape EntityType="MCDModel.FacilitatorSetaAccreditation" Width="2.25" PointX="12.75" PointY="40.25" />
+        <EntityTypeShape EntityType="MCDModel.File" Width="1.5" PointX="3" PointY="45" />
+        <EntityTypeShape EntityType="MCDModel.Login" Width="1.5" PointX="12.75" PointY="43.125" />
+        <EntityTypeShape EntityType="MCDModel.LookupAddressType" Width="1.5" PointX="1.5" PointY="55.25" />
+        <EntityTypeShape EntityType="MCDModel.LookupContactType" Width="1.5" PointX="2" PointY="49.75" />
+        <EntityTypeShape EntityType="MCDModel.LookupCountry" Width="1.5" PointX="1.5" PointY="57.625" />
+        <EntityTypeShape EntityType="MCDModel.LookupDepartment" Width="2.25" PointX="12.375" PointY="47.625" />
+        <EntityTypeShape EntityType="MCDModel.LookupDisability" Width="3.125" PointX="29.875" PointY="41.75" />
+        <EntityTypeShape EntityType="MCDModel.LookupEmailMessageRepositoryHistoryTrancationType" Width="1.5" PointX="3.75" PointY="35.375" />
+        <EntityTypeShape EntityType="MCDModel.LookupEnquiryStatus" Width="2.25" PointX="0.5" PointY="35.625" />
+        <EntityTypeShape EntityType="MCDModel.LookupEnrollentDocumentType" Width="1.5" PointX="3" PointY="32.25" />
+        <EntityTypeShape EntityType="MCDModel.LookupEnrollmentProgressState" Width="2.875" PointX="6.875" PointY="27.5" />
+        <EntityTypeShape EntityType="MCDModel.LookupEnrollmentType" Width="2" PointX="18" PointY="53.375" />
+        <EntityTypeShape EntityType="MCDModel.LookupEquiryHistoryType" Width="2.625" PointX="5.25" PointY="30.5" />
+        <EntityTypeShape EntityType="MCDModel.LookupEquiryOrigion" Width="2.25" PointX="5.25" PointY="63.375" />
+        <EntityTypeShape EntityType="MCDModel.LookupEthnicity" Width="1.5" PointX="16.5" PointY="56.75" />
+        <EntityTypeShape EntityType="MCDModel.LookupGender" Width="1.5" PointX="17.125" PointY="31.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="MCDModel.LookupMartialStatus" Width="1.5" PointX="22.125" PointY="39.875" />
+        <EntityTypeShape EntityType="MCDModel.LookupProcess" Width="1.5" PointX="0.75" PointY="29.25" />
+        <EntityTypeShape EntityType="MCDModel.LookupProcessStep" Width="1.5" PointX="3" PointY="29.125" />
+        <EntityTypeShape EntityType="MCDModel.LookupProvince" Width="1.5" PointX="1.5" PointY="60.125" />
+        <EntityTypeShape EntityType="MCDModel.LookupQualificationLevel" Width="1.5" PointX="16.5" PointY="41" />
+        <EntityTypeShape EntityType="MCDModel.LookupSectionalEnrollmentType" Width="2.75" PointX="27.125" PointY="28.625" />
+        <EntityTypeShape EntityType="MCDModel.LookupSeta" Width="2" PointX="24.875" PointY="53.5" />
+        <EntityTypeShape EntityType="MCDModel.LookupTitle" Width="2.125" PointX="5.625" PointY="50.875" />
+        <EntityTypeShape EntityType="MCDModel.LookupTypeOfRelation" Width="1.5" PointX="8.25" PointY="48.375" />
+        <EntityTypeShape EntityType="MCDModel.MessageTemplate" Width="1.5" PointX="5.25" PointY="43" />
+        <EntityTypeShape EntityType="MCDModel.NextOfKin" Width="1.5" PointX="10.5" PointY="43.25" />
+        <EntityTypeShape EntityType="MCDModel.Qualification" Width="2" PointX="13.5" PointY="29.625" />
+        <EntityTypeShape EntityType="MCDModel.SMTPSetting" Width="2.25" PointX="0.5" PointY="3" />
+        <EntityTypeShape EntityType="MCDModel.StudentAssociatedCompany" Width="2.625" PointX="31" PointY="46.625" />
+        <EntityTypeShape EntityType="MCDModel.StudentDisability" Width="2.25" PointX="33" PointY="37.375" />
+        <EntityTypeShape EntityType="MCDModel.Student" Width="2.625" PointX="18.875" PointY="39.5" />
+        <EntityTypeShape EntityType="MCDModel.sysdiagram" Width="2.625" PointX="3.375" PointY="3.625" />
+        <EntityTypeShape EntityType="MCDModel.SystemAdministrator" Width="1.5" PointX="10.5" PointY="49.125" />
+        <AssociationConnector Association="MCDModel.FK_StudentAssociatedCompany_Companies" />
+        <AssociationConnector Association="MCDModel.FK_ContactDetails_LookupContactTypes" />
+        <AssociationConnector Association="MCDModel.FK_Curriculums_CostingModels" />
+        <AssociationConnector Association="MCDModel.FK_Courses_Departments" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourses_Courses" />
+        <AssociationConnector Association="MCDModel.FK_FacilitatorAssociatedCourses_Courses" />
+        <AssociationConnector Association="MCDModel.FK_CurricullumCourseCodes_CurriculumCourses" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourseEnrollments_CurriculumCourses" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourseMinimumMaximums_CurriculumCourses1" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCoursePredecessors_CurriculumCourses" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourses_Curriculums" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourses_LookupEnrollmentTypes" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumEquirySelectedCourses_CurriculumCourses" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumPrequisiteCourses_CurriculumCourses" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumPrequisiteCourses_Curriculums" />
+        <AssociationConnector Association="MCDModel.FK_Curriculums_Departments" />
+        <AssociationConnector Association="MCDModel.FK_EmailMessageRepositoryHistory_EmailMessageRepository" />
+        <AssociationConnector Association="MCDModel.FK_EmailMessageRepositoryHistory_LookupEmailMessageRepositoryHistoryTrancationTypes" />
+        <AssociationConnector Association="MCDModel.FK_EquiryHistory_Employees" />
+        <AssociationConnector Association="MCDModel.FK_Login_Employees" />
+        <AssociationConnector Association="MCDModel.FK_Enquiry_LookupEnquiryStatuses" />
+        <AssociationConnector Association="MCDModel.FK_EquiryHistory_Enquiry" />
+        <AssociationConnector Association="MCDModel.FK_EnrollmentDocuments_Files" />
+        <AssociationConnector Association="MCDModel.FK_EnrollmentDocuments_LookupEnrollentDocumentTypes" />
+        <AssociationConnector Association="MCDModel.FK_EquiryHistory_LookupEquiryHistoryTypes" />
+        <AssociationConnector Association="MCDModel.FK_FacilitatorAssociatedCourses_Facilitators" />
+        <AssociationConnector Association="MCDModel.FK_FacilitatorQualifications_Facilitators" />
+        <AssociationConnector Association="MCDModel.FK_FacilitatorQualifications_Qualifications" />
+        <AssociationConnector Association="MCDModel.FK_FacilitatorSetaAccreditations_Facilitators" />
+        <AssociationConnector Association="MCDModel.FK_StudentDisabilities_LookupDisabilities" />
+        <AssociationConnector Association="MCDModel.FK_Students_LookupEthnicities" />
+        <AssociationConnector Association="MCDModel.FK_Students_LookupGenders" />
+        <AssociationConnector Association="MCDModel.FK_Students_LookupMartialStatuses" />
+        <AssociationConnector Association="MCDModel.FK_LookupProcessSteps_LookupProcesses" />
+        <AssociationConnector Association="MCDModel.FK_MessageTemplates_LookupProcessSteps" />
+        <AssociationConnector Association="MCDModel.FK_Students_LookupQualificationLevels" />
+        <AssociationConnector Association="MCDModel.FK_NextOfKins_LookupTypeOfRelations" />
+        <AssociationConnector Association="MCDModel.FK_StudentAssociatedCompany_Students" />
+        <AssociationConnector Association="MCDModel.FK_StudentDisabilities_Students" />
+        <AssociationConnector Association="MCDModel.CompanyContactDetails" />
+        <AssociationConnector Association="MCDModel.CompanyEnquiry" />
+        <AssociationConnector Association="MCDModel.CurriculumCourseAssociatedSetas" />
+        <AssociationConnector Association="MCDModel.DepartmentResponsibleEmployees" />
+        <AssociationConnector Association="MCDModel.EmailMessageRepositoryAttachments" />
+        <AssociationConnector Association="MCDModel.EnquiryEmailCorrespondence" />
+        <AssociationConnector Association="MCDModel.EquiryOrigions" />
+        <AssociationConnector Association="MCDModel.MessageTemplateAttachments" />
+        <AssociationConnector Association="MCDModel.StudentNextOfKins" />
+        <EntityTypeShape EntityType="MCDModel.StudentIDDocument" Width="2.75" PointX="22.5" PointY="41.625" />
+        <EntityTypeShape EntityType="MCDModel.StudentPhoto" Width="2" PointX="27.75" PointY="44.75" />
+        <AssociationConnector Association="MCDModel.FK_StudentIDDocuments_Files" />
+        <AssociationConnector Association="MCDModel.FK_StudentPhotos_Files" />
+        <AssociationConnector Association="MCDModel.FK_StudentIDDocuments_Students" />
+        <AssociationConnector Association="MCDModel.FK_StudentPhotos_Students" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourseEnrollments_LookupEnrollmentProgressStates" />
+        <EntityTypeShape EntityType="MCDModel.CurriculumCourseDayCanBeScheduled" Width="3.125" PointX="24.75" PointY="50.125" />
+        <EntityTypeShape EntityType="MCDModel.LookupDayOfWeek" Width="1.5" PointX="22.5" PointY="44.375" />
+        <EntityTypeShape EntityType="MCDModel.PublicHoliday" Width="2.25" PointX="0.5" PointY="6.25" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourseDayCanBeScheduled_CurriculumCourses" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourseDayCanBeScheduled_LookupDayOfWeeks" />
+        <EntityTypeShape EntityType="MCDModel.LookupScheduleLocation" Width="3" PointX="10.5" PointY="5" />
+        <EntityTypeShape EntityType="MCDModel.LookupScheduleStatus" Width="2.875" PointX="3.5" PointY="7.125" />
+        <EntityTypeShape EntityType="MCDModel.Schedule" Width="2.625" PointX="29.5" PointY="21.75" />
+        <AssociationConnector Association="MCDModel.FK_Schedules_CurriculumCourseEnrollments" />
+        <AssociationConnector Association="MCDModel.FK_Schedules_Facilitators" />
+        <AssociationConnector Association="MCDModel.FK_Schedules_LookupScheduleLocations" />
+        <AssociationConnector Association="MCDModel.FK_Schedules_LookupScheduleStatuses" />
+        <EntityTypeShape EntityType="MCDModel.StudentEnrollment" Width="1.5" PointX="29.5" PointY="39" />
+        <AssociationConnector Association="MCDModel.FK_StudentEnrollments_Students" />
+        <EntityTypeShape EntityType="MCDModel.ApprienticeshipEnrollment" Width="3.125" PointX="27.375" PointY="31.625" />
+        <AssociationConnector Association="MCDModel.FK_ApprienticeshipEnrollments_LookupSectionalEnrollmentTypes" />
+        <EntityTypeShape EntityType="MCDModel.Enrollment" Width="2.75" PointX="20.25" PointY="32.875" />
+        <AssociationConnector Association="MCDModel.FK_ApprienticeshipEnrollments_Enrollments" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourseEnrollments_Enrollments1" />
+        <AssociationConnector Association="MCDModel.FK_Enrollments_Curriculums" />
+        <AssociationConnector Association="MCDModel.FK_EnrollmentDocuments_Enrollments" />
+        <AssociationConnector Association="MCDModel.FK_Enrollments_LookupEnrollmentProgressStates" />
+        <AssociationConnector Association="MCDModel.FK_Schedules_Enrollments" />
+        <AssociationConnector Association="MCDModel.FK_StudentEnrollments_Enrollments" />
+        <EntityTypeShape EntityType="MCDModel.Activity" Width="1.5" PointX="27.5" PointY="64.125" />
+        <EntityTypeShape EntityType="MCDModel.LookupActivityCategory" Width="1.5" PointX="25.25" PointY="64.375" />
+        <AssociationConnector Association="MCDModel.FK_Activities_LookupActivityCategories" />
+        <EntityTypeShape EntityType="MCDModel.AssessmentFeedBackForm" Width="2.75" PointX="35.5" PointY="19" />
+        <EntityTypeShape EntityType="MCDModel.AssessmentModuleActivity" Width="2.75" PointX="36.875" PointY="49" />
+        <EntityTypeShape EntityType="MCDModel.Assessment" Width="2.75" PointX="27.125" PointY="17.875" />
+        <EntityTypeShape EntityType="MCDModel.LookupPracticalAssessmentStatus" Width="2.75" PointX="32.375" PointY="30.875" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentModuleActivities_Activities" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentFeedBackForms_Assessments" />
+        <AssociationConnector Association="MCDModel.FK_Assessments_CurriculumCourseEnrollments" />
+        <EntityTypeShape EntityType="MCDModel.AssessmentModule" Width="3" PointX="35.875" PointY="23.75" />
+        <EntityTypeShape EntityType="MCDModel.CurriculumCourseModule" Width="3" PointX="30.75" PointY="58" />
+        <EntityTypeShape EntityType="MCDModel.Module" Width="1.5" PointX="15.375" PointY="49.75" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentModuleActivities_AssessmentModules" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentModules_Assessments" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentModules_CurriculumCourseModules" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentModules_LookupPracticalAssessmentStatuses" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourseModules_CurriculumCourses" />
+        <AssociationConnector Association="MCDModel.FK_CurriculumCourseModules_Modules" />
+        <AssociationConnector Association="MCDModel.FK_Modules_Departments" />
+        <AssociationConnector Association="MCDModel.CurriculumCourseModuleActivities" />
+        <EntityTypeShape EntityType="MCDModel.LookupTheoriticalAssesmentStatus" Width="2.875" PointX="6.375" PointY="3.875" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentModules_LoolupTheoriticalAssesmentStatuses" />
+        <EntityTypeShape EntityType="MCDModel.AssessmentReport" Width="3.625" PointX="30.625" PointY="27.875" />
+        <EntityTypeShape EntityType="MCDModel.LookupAssessmentRecommendation" Width="1.5" PointX="24.875" PointY="18.625" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentReports_Assessments" />
+        <AssociationConnector Association="MCDModel.FK_AssessmentReports_Files" />
+        <AssociationConnector Association="MCDModel.FK_Assessments_LookupAssessmentRecommendations" />
+        <EntityTypeShape EntityType="MCDModel.LookupEnquiryType" Width="2" PointX="10.875" PointY="2.625" />
+        <EntityTypeShape EntityType="MCDModel.LookupProgessFileType" Width="1.5" PointX="6.5" PointY="25.125" />
+        <AssociationConnector Association="MCDModel.FK_Enquiry_Curriculums" />
+        <EntityTypeShape EntityType="MCDModel.Notification" Width="1.5" PointX="5.75" PointY="53.375" />
+        <AssociationConnector Association="MCDModel.EnquiryNotifcations" />
+        <EntityTypeShape EntityType="MCDModel.ComapnyContact" Width="1.5" PointX="3.5" PointY="66.125" />
+        <EntityTypeShape EntityType="MCDModel.CompanyProgressFile" Width="1.5" PointX="3.5" PointY="25.375" />
+        <EntityTypeShape EntityType="MCDModel.CourseSchedule" Width="1.5" PointX="22.25" PointY="30" />
+        <EntityTypeShape EntityType="MCDModel.EmailSystemOutGoingMessageAttachment" Width="4.75" PointX="4.5" PointY="0.875" />
+        <EntityTypeShape EntityType="MCDModel.EquiryAssociatedContact" Width="1.5" PointX="5.75" PointY="55.75" />
+        <EntityTypeShape EntityType="MCDModel.IndividualAddress" Width="1.5" PointX="5" PointY="69.375" />
+        <EntityTypeShape EntityType="MCDModel.IndividualContactDetail" Width="1.5" PointX="8.25" PointY="45.125" />
+        <EntityTypeShape EntityType="MCDModel.EnquiryForCoursesNotRunByMCD" Width="1.5" PointX="5.75" PointY="58.125" />
+        <AssociationConnector Association="MCDModel.FK_IndividualAddresses_Addresses" />
+        <AssociationConnector Association="MCDModel.FK_ComapnyContacts_Companies" />
+        <AssociationConnector Association="MCDModel.FK_CompanyProgressFiles_Companies" />
+        <AssociationConnector Association="MCDModel.FK_CompanyStudentProgressFiles_CompanyProgressFiles" />
+        <AssociationConnector Association="MCDModel.FK_IndividualContactDetails_ContactDetails" />
+        <AssociationConnector Association="MCDModel.FK_CourseSchedules_Students" />
+        <AssociationConnector Association="MCDModel.FK_EmailSystemOutGoingMessageAttachments_EmailSystemOutGoingMessages" />
+        <AssociationConnector Association="MCDModel.FK_EnquiryForCoursesNotRunByMCD_Enquiry" />
+        <AssociationConnector Association="MCDModel.FK_EquiryAssociatedContacts_Enquiry" />
+        <EntityTypeShape EntityType="MCDModel.CompanyStudentProgressFile" Width="1.5" PointX="27.5" PointY="36.25" />
+        <EntityTypeShape EntityType="MCDModel.Individual" Width="2.375" PointX="8.5" PointY="54.25" />
+        <EntityTypeShape EntityType="MCDModel.ProgressFile" Width="2.25" PointX="0.5" PointY="25.625" />
+        <EntityTypeShape EntityType="MCDModel.StudentProgressFile" Width="1.5" PointX="25.25" PointY="37.125" />
+        <AssociationConnector Association="MCDModel.FK_Assessors_Individuals" />
+        <AssociationConnector Association="MCDModel.FK_CompanyProgressFiles_ProgressFiles" />
+        <AssociationConnector Association="MCDModel.FK_CompanyStudentProgressFiles_StudentProgressFiles" />
+        <AssociationConnector Association="MCDModel.FK_Employees_Individuals" />
+        <AssociationConnector Association="MCDModel.FK_Enquiry_ProgressFiles" />
+        <AssociationConnector Association="MCDModel.FK_Enrollments_ProgressFiles" />
+        <AssociationConnector Association="MCDModel.FK_Facilitators_Individuals" />
+        <AssociationConnector Association="MCDModel.FK_Individuals_LookupTitles" />
+        <AssociationConnector Association="MCDModel.FK_NextOfKins_Individuals" />
+        <AssociationConnector Association="MCDModel.FK_Students_Individuals1" />
+        <AssociationConnector Association="MCDModel.FK_SystemAdministrator_Individuals" />
+        <AssociationConnector Association="MCDModel.FK_ProgressFiles_LookupProgessFileTypes" />
+        <AssociationConnector Association="MCDModel.FK_StudentProgressFiles_ProgressFiles" />
+        <AssociationConnector Association="MCDModel.FK_StudentProgressFiles_Students" />
+        <AssociationConnector Association="MCDModel.ComapnyContacts" />
+        <AssociationConnector Association="MCDModel.EquiryAssociatedContacts" />
+        <AssociationConnector Association="MCDModel.IndividualContactDetails" />
+        <AssociationConnector Association="MCDModel.FK_Enrollments_Enquiry" />
+        <EntityTypeShape EntityType="MCDModel.EnrollmentPaymentHistory" Width="1.5" PointX="23.75" PointY="34.125" />
+        <AssociationConnector Association="MCDModel.FK_EnrollmentPaymentHistory_Enrollments" />
+        <EntityTypeShape EntityType="MCDModel.Address" Width="1.5" PointX="8.75" PointY="60.125" />
+        <EntityTypeShape EntityType="MCDModel.OffSiteSchedule" Width="1.5" PointX="33.875" PointY="42.25" />
+        <AssociationConnector Association="MCDModel.FK_Addresses_LookupAddressTypes" />
+        <AssociationConnector Association="MCDModel.FK_Addresses_LookupCountries" />
+        <AssociationConnector Association="MCDModel.FK_Addresses_LookupProvinces" />
+        <AssociationConnector Association="MCDModel.FK_OffSiteSchedule_Addresses" />
+        <AssociationConnector Association="MCDModel.FK_OffSiteSchedule_Schedules" />
+        <AssociationConnector Association="MCDModel.CompanyAddresses" />
+        <AssociationConnector Association="MCDModel.IndividualAddresses" />
+        <EntityTypeShape EntityType="MCDModel.OnSiteSchedule" Width="1.5" PointX="32.875" PointY="16.875" />
+        <EntityTypeShape EntityType="MCDModel.VenueAssociatedCourse" Width="3.125" PointX="17.875" PointY="25.875" />
+        <EntityTypeShape EntityType="MCDModel.VenueAssociatedCurriculumCourse" Width="3.75" PointX="30" PointY="34.875" />
+        <AssociationConnector Association="MCDModel.FK_VenueAssociatedCourses_Courses" />
+        <AssociationConnector Association="MCDModel.FK_VenueAssociatedCurriculumCourses_CurriculumCourses" />
+        <AssociationConnector Association="MCDModel.FK_OnSiteSchedules_Schedules" />
+        <EntityTypeShape EntityType="MCDModel.Venue" Width="2.375" PointX="7.25" PointY="7" />
+        <AssociationConnector Association="MCDModel.FK_OnSiteSchedules_Venues" />
+        <AssociationConnector Association="MCDModel.FK_VenueAssociatedCourses_Venues" />
+        <AssociationConnector Association="MCDModel.FK_VenueAssociatedCurriculumCourses_Venues" />
+        <EntityTypeShape EntityType="MCDModel.ScheduleConfirmationDocumentation" Width="1.5" PointX="34.875" PointY="34.125" />
+        <AssociationConnector Association="MCDModel.FK_ScheduleConfirmationDocumentation_EnrollmentDocuments" />
+        <AssociationConnector Association="MCDModel.FK_ScheduleConfirmationDocumentation_Schedules" />
+        <EntityTypeShape EntityType="MCDModel.LookupScheduleConfirmationDocumentationType" Width="1.5" PointX="0.75" PointY="8.875" />
+        <AssociationConnector Association="MCDModel.FK_ScheduleConfirmationDocumentation_LookupScheduleConfirmationDocumentationTypes" />
+        <AssociationConnector Association="MCDModel.FK_ScheduleConfirmationDocumentation_Files" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

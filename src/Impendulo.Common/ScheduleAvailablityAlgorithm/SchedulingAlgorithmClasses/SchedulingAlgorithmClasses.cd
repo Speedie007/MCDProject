@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.AbstractPeriod" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAgEAAAAAAAAAAgAAAAIAAEAAAAAkCIAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\AbstractClasses\AbstractDateSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.AbstactCourseAvaiablePeriod">
+    <Position X="0.5" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAHAAAQAQApAAMYYgQAQAACAIAABIAQAAAACSAAIAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\AbstractClasses\AbstactCourseAvaiablePeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.CourseAvailablePeriod">
+    <Position X="4.25" Y="6.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAwCACAAAAAAAAoAAAAAAAIAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Courses\CourseAvailablePeriod.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.OnSiteVenuePeriod">
+    <Position X="7.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAgAAAAAEAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Venues\VenuePeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.FacilitatorPeriod">
+    <Position X="4.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Facilitators\FacilitatorPeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.OffSiteVenuePeriod">
+    <Position X="9.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ConcreteClasses\Venues\OffSiteVenuePeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.AvailableCoursePeriodByFacilitatorResultSet">
+    <Position X="4" Y="10.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAFAAAAAAAAAAAAAAAAAECAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\AvaiableCoursePeriodByFacilitartorResultSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.AvailableOnSitePeriods">
+    <Position X="7.5" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAFAAgAAAAAEAAAAAAAAECAQIAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\FinalAvailablePeriods\AvailableOnSitePeriods.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.AvailableOffSitePeriods">
+    <Position X="9.75" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAAFAAgAAAAAAAAAAAAAAECAQIAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\FinalAvailablePeriods\AvailableOffSitePeriods.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Impendulo.Common.ScheduleAvailablityAlgorithm.CurrentlyScheduledCourses">
+    <Position X="12.5" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAFAAgAAAAAAAAAAAAAAECAQIAAAAAAQAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\ResultSetClasses\CurrentlyScheduledCourses.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Impendulo.Common.ScheduleAvailablityAlgorithm.IPeriod">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgEAAAAAAAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\Interfaces\IPeriod.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Impendulo.Common.ScheduleAvailablityAlgorithm.ISearchResultSet">
+    <Position X="7.75" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\Interfaces\ISearchResultSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Impendulo.Common.ScheduleAvailablityAlgorithm.IResultSet">
+    <Position X="7.75" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAEAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\Interfaces\IResultSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Impendulo.Common.ScheduleAvailablityAlgorithm.SearchTimeAhead">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAAAAAAAAABAAAAAAAAAAAAAIAEAAAgA=</HashCode>
+      <FileName>ScheduleAvailablityAlgorithm\SchedulingAlgorithmClasses\EnumClasses\SearchTimeAhead.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Impendulo.Common.EnumPreLoadType">
+    <Position X="11.25" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQA=</HashCode>
+      <FileName>EnumPreLoadType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
